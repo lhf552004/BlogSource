@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Translate • 听雨轩</title>
+    <meta name="description" content="MB translator">
+    <meta name="keywords" content="">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:title" content="Articles">
+    <meta name="twitter:description" content="MB translator">
+    <meta name="twitter:site" content="@mmistakes">
+    <meta name="twitter:creator" content="@mmistakes">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="http://lhf552004.github.io/images/120x120.gif">
+
+    <!-- Open Graph -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Articles">
+    <meta property="og:description" content="MB translator">
+    <meta property="og:url" content="http://lhf552004.github.io/translate/">
+    <meta property="og:site_name" content="听雨轩">
+    <link rel="author" href="https://plus.google.com/+MichaelRoseDesign"/>
+    <script src="http://lhf552004.github.io/js/jquery-1.12.3.min.js"></script>
+    <script src="http://lhf552004.github.io/bootstrap/js/bootstrap.min.js"></script>
+    <link href="http://lhf552004.github.io/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://lhf552004.github.io/css/style.css" rel="stylesheet">
+    <!--<script src="../js/vendor/jquery.ui.widget.js"></script>-->
+    <!--<script src="../js/jquery.iframe-transport.js"></script>-->
+    <!--<script src="../js/jquery.fileupload.js"></script>-->
+    <script src="http://lhf552004.github.io/js/angular.min.js"></script>
+    <script src="http://lhf552004.github.io/js/Text.js"></script>
+    <script src="http://lhf552004.github.io/js/FileSaver.js"></script>
+    <script src="http://lhf552004.github.io/js/TranslateXMLByXMLapp.js"></script>
+    <link rel="canonical" href="http://lhf552004.github.io/translate/">
+
+    <link href="http://lhf552004.github.io/atom.xml" type="application/atom+xml" rel="alternate" title="听雨轩 Atom Feed">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cleartype" content="on">
+
+    <link rel="stylesheet" href="http://lhf552004.github.io/css/main.css">
+    <!-- HTML5 Shiv and Media Query Support for IE -->
+    <!--[if lt IE 9]>
+    <script src="http://lhf552004.github.io/js/vendor/html5shiv.min.js"></script>
+    <script src="http://lhf552004.github.io/js/vendor/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+<header id="masthead">
+    <div class="inner-wrap">
+        <a href="http://lhf552004.github.io/" class="site-title">听雨轩</a>
+        <nav role="navigation" class="menu top-menu">
+            <ul class="menu-item">
+                <li class="home"><a href="/">听雨轩</a></li>
+
+
+                <li><a href="http://lhf552004.github.io/travel/" >旅游</a></li>
+
+
+                <li><a href="http://lhf552004.github.io/articles/" >杂记</a></li>
+
+
+                <li><a href="http://lhf552004.github.io/software/" >软件下载</a></li>
+
+
+                <li><a href="http://lhf552004.github.io/translate/" >纽豹在线翻译</a></li>
+
+
+                <li><a href="http://lhf552004.github.io/children/" >儿童</a></li>
+
+
+                <li><a href="http://lhf552004.github.io/about/" >About</a></li>
+
+            </ul>
+        </nav>
+    </div><!-- /.inner-wrap -->
+</header><!-- /.masthead -->
+<nav role="navigation" id="js-menu" class="sliding-menu-content">
+    <h5>听雨轩 <span>列表</span></h5>
+    <ul class="menu-item">
+        <li>
+            <a href="http://lhf552004.github.io/travel/">
+                <img src="http://lhf552004.github.io/images/travel.gif" alt="teaser" class="teaser">
+                <div class="title">旅游</div>
+                <p class="excerpt">我希望能在世界每个角落留下我的足迹.</p>
+            </a>
+        </li><li>
+        <a href="http://lhf552004.github.io/articles/">
+            <img src="http://lhf552004.github.io/images/zaji.gif" alt="teaser" class="teaser">
+            <div class="title">杂记</div>
+            <p class="excerpt">随感而发，杂乱无章.</p>
+        </a>
+    </li><li>
+        <a href="http://lhf552004.github.io/software/">
+            <img src="http://lhf552004.github.io/images/software.gif" alt="teaser" class="teaser">
+            <div class="title">软件下载</div>
+            <p class="excerpt">自己做的一些小软件，有的有用，有的没作用.</p>
+        </a>
+    </li><li>
+        <a href="http://lhf552004.github.io/translate/">
+            <img src="http://lhf552004.github.io/images/400x250.gif" alt="teaser" class="teaser">
+            <div class="title">纽豹在线翻译</div>
+            <p class="excerpt">这是一些Muehlabuer在线翻译工具.</p>
+        </a>
+    </li><li>
+        <a href="http://lhf552004.github.io/children/">
+            <img src="http://lhf552004.github.io/images/children.gif" alt="teaser" class="teaser">
+            <div class="title">儿童</div>
+            <p class="excerpt">儿童.</p>
+        </a>
+    </li><li>
+        <a href="http://lhf552004.github.io/about/">
+            <img src="http://lhf552004.github.io/images/about.gif" alt="teaser" class="teaser">
+            <div class="title">About</div>
+            <p class="excerpt">All about Skinny Bones for Jekyll.</p>
+        </a>
+    </li>
+    </ul>
+</nav>
+<button type="button" id="js-menu-trigger" class="sliding-menu-button lines-button x2" role="button" aria-label="Toggle Navigation">
+    <span class="nav-lines"></span>
+</button>
+
+<div id="js-menu-screen" class="menu-screen"></div>
+
+
+<div id="page-wrapper">
+    <!--[if lt IE 9]>
+    <div class="upgrade notice-warning"><strong>Your browser is quite old!</strong> Why not <a
+            href="http://whatbrowser.org/">upgrade to a newer one</a> to better enjoy this site?
+    </div><![endif]-->
+
+
+    <div id="main" role="main">
+        <div class="wrap">
+            <div class="page-title header-content header-text">
+                <div class="head-left">
+                    <div class="logo">
+                        <a href="/"><img src="../images/logo.png" /></a>
+                    </div>
+                </div>
+                <h1>Tools</h1>
+                <h2>MB translator</h2>
+                <p>MB translators是完全运行在客户端，不需要服务器执行结果，所有的逻辑是用javascript实现的。换句话说离线模式下，该页面还是能够正常工作的。</p>
+            </div>
+            <div class="archive-wrap">
+                <div class="page-content">
+                    <div class="tiles">
+
+                        <article class="tile" itemscope="" itemtype="http://schema.org/Article">
+                            <a href="http://lhf552004.github.io/translate/TranslateXMLByXML.html" title="Translate XML by XML"
+                               class="post-teaser"><img src="http://lhf552004.github.io/images/XMLByXML.jpg" alt="teaser"
+                                                        itemprop="image"/></a>
+                            <p class="entry-date date published">
+                                <time datetime="2016-06-10" itemprop="datePublished">June 10, 2016</time>
+                            </p>
+                            <h2 class="post-title" itemprop="name"><a
+                                    href="http://lhf552004.github.io/translate/TranslateXMLByXML.html">Translate XML by XML</a>
+                            </h2>
+                            <p class="post-excerpt" itemprop="description">
+
+
+                            </p>
+                        </article><!-- /.tile -->
+
+                        <article class="tile" itemscope="" itemtype="http://schema.org/Article">
+                            <a href="http://lhf552004.github.io/translate/TranslateXMLByLGF.html" title="Translate XML by XML"
+                               class="post-teaser"><img src="http://lhf552004.github.io/images/XMLByLGF.jpg" alt="teaser"
+                                                        itemprop="image"/></a>
+                            <p class="entry-date date published">
+                                <time datetime="2016-06-10" itemprop="datePublished">June 10, 2016</time>
+                            </p>
+                            <h2 class="post-title" itemprop="name"><a
+                                    href="http://lhf552004.github.io/translate/TranslateXMLByLGF.html">Translate XML by LGF</a>
+                            </h2>
+                            <p class="post-excerpt" itemprop="description">
+
+
+                            </p>
+                        </article><!-- /.tile -->
+
+                        <article class="tile" itemscope="" itemtype="http://schema.org/Article">
+                            <a href="http://lhf552004.github.io/translate/TranslateLGFByXML.html" title="Translate XML by XML"
+                               class="post-teaser"><img src="http://lhf552004.github.io/images/LGFByXML.jpg" alt="teaser"
+                                                        itemprop="image"/></a>
+                            <p class="entry-date date published">
+                                <time datetime="2016-06-10" itemprop="datePublished">June 10, 2016</time>
+                            </p>
+                            <h2 class="post-title" itemprop="name"><a
+                                    href="http://lhf552004.github.io/translate/TranslateLGFByXML.html">Translate LGF by XML</a>
+                            </h2>
+                            <p class="post-excerpt" itemprop="description">
+
+
+                            </p>
+                        </article><!-- /.tile -->
+                        <article class="tile" itemscope="" itemtype="http://schema.org/Article">
+                            <a href="http://lhf552004.github.io/translate/TranslateLGFByLGF.html" title="Translate XML by XML"
+                               class="post-teaser"><img src="http://lhf552004.github.io/images/LGFByLGF.jpg" alt="teaser"
+                                                        itemprop="image"/></a>
+                            <p class="entry-date date published">
+                                <time datetime="2016-06-10" itemprop="datePublished">June 10, 2016</time>
+                            </p>
+                            <h2 class="post-title" itemprop="name"><a
+                                    href="http://lhf552004.github.io/translate/TranslateLGFByLGF.html">Translate LGF by LGF</a>
+                            </h2>
+                            <p class="post-excerpt" itemprop="description">
+
+
+                            </p>
+                        </article><!-- /.tile -->
+                        <article class="tile" itemscope="" itemtype="http://schema.org/Article">
+                            <a href="http://lhf552004.github.io/translate/ConvertSimpleCNToTraditionalCN.html" title="Translate XML by XML"
+                               class="post-teaser"><img src="http://lhf552004.github.io/images/convert.png" alt="teaser"
+                                                        itemprop="image"/></a>
+                            <p class="entry-date date published">
+                                <time datetime="2016-06-10" itemprop="datePublished">June 10, 2016</time>
+                            </p>
+                            <h2 class="post-title" itemprop="name"><a
+                                    href="http://lhf552004.github.io/translate/ConvertSimpleCNToTraditionalCN.html">Convert Simple Chinese To Traditional Chinese</a>
+                            </h2>
+                            <p class="post-excerpt" itemprop="description">
+
+
+                            </p>
+                        </article><!-- /.tile -->
+
+                    </div>
+                    <!-- /.tiles -->
+
+                </div><!-- /.page-content -->
+            </div class="archive-wrap"><!-- /.archive-wrap -->
+        </div><!-- /.wrap -->
+    </div><!-- /#main -->
+
+    <footer role="contentinfo" id="site-footer">
+        <nav role="navigation" class="menu bottom-menu">
+            <ul class="menu-item">
+
+
+                <li><a href="http://lhf552004.github.io/">Home</a></li>
+
+
+                <li><a href="http://lhf552004.github.io/getting-started/">Getting Started</a></li>
+
+
+                <li><a href="http://lhf552004.github.io/about/">About</a></li>
+
+
+                <li><a href="http://lhf552004.github.io/terms/">Terms</a></li>
+
+            </ul>
+        </nav><!-- /.bottom-menu -->
+        <p class="copyright">&#169; 2016 <a href="http://lhf552004.github.io">听雨轩</a> powered by <a
+                href="http://jekyllrb.com">Jekyll</a> + <a href="http://mmistakes.github.io/skinny-bones-jekyll/">Skinny
+            Bones</a>.</p>
+    </footer>
+</div>
+
+<script src="http://lhf552004.github.io/js/vendor/jquery-1.9.1.min.js"></script>
+<script src="http://lhf552004.github.io/js/main.js"></script>
+
+</body>
+
+</html>
